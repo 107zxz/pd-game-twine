@@ -234,7 +234,8 @@ config.style.dark.page.font: &#39;Topaz 16&#39;
 config.logger.show.display: true
 config.header.left: &#39;{link to: (&quot;p.&quot; + (String(Number(passage.name.split(&quot;.&quot;)[1])-1)).padStart(3,&quot;0&quot;))}&#39;
 config.header.right: &#39;{link to: (&quot;p.&quot; + (String(Number(passage.name.split(&quot;.&quot;)[1])+1)).padStart(3,&quot;0&quot;))}&#39;
-config.footer.left: &quot;[[Character Sheet]]&quot;
+config.footer.left: &#39;{back link, label: &quot;Go Back&quot;}&#39;
+config.footer.center: &quot;[[Character Sheet]]&quot;
 config.header.center: &#39;{passage.name}&#39;
 config.footer.right: &#39;{restart link, label: &quot;Restart&quot;}&#39;
 config.style.dark.page.color: &quot;white on black&quot;
@@ -331,18 +332,9 @@ The view is the same as usual. The moon in front of your window, and empty space
 
 It&#39;s a view you&#39;ve long since tired of, but something seems different now.
 
-Your station is designed to maintain a geocentric orbit around your research target, but for some reason your view is off-center.
+Turn to p.017
 
-Looking closer, you also notice a glowing orange shape some distance away from your craft.
-
-&lt;br&gt;
-
-If you have a telescope, turn to p.008 to inspect the shape.
-
-Otherwise, turn to p.009.
-
-&gt; [[p.008]]
-&gt; [[p.009]]</tw-passagedata><tw-passagedata pid="8" name="p.008" tags="" position="725,1100" size="100,100">Upon closer inspection, the shape itself isn&#39;t glowing. The scrap of metal has a plume of orange sparks spreading out behind it.
+&gt; [[p.017]]</tw-passagedata><tw-passagedata pid="8" name="p.008" tags="" position="1175,975" size="100,100">Upon closer inspection, the shape itself isn&#39;t glowing. The scrap of metal has a plume of orange sparks spreading out behind it.
 
 With your telescope at its highest magnification setting, you can make out the text &#39;MT-MMCCXXIV-091738&quot;.
 &lt;!-- This is a Military serial number. Somewhere on your computer you will be able to figure that out, or by thinking about your RH Research craft --&gt;
@@ -352,16 +344,16 @@ With your telescope at its highest magnification setting, you can make out the t
 If this serial number means something to you, turn to p.011. Otherwise, turn to p.009
 
 &gt; [[p.011]]
-&gt; [[p.009]]</tw-passagedata><tw-passagedata pid="9" name="p.009" tags="" position="850,1100" size="100,100">The beeping you heard earlier has stopped, but your main computer&#39;s screen has turned on on its own.
+&gt; [[p.009]]</tw-passagedata><tw-passagedata pid="9" name="p.009" tags="" position="1000,1100" size="100,100">The beeping you heard earlier has stopped, but your main computer&#39;s screen has turned on on its own.
 
 &lt;br&gt;
 
-To investigate it turn to p.010. To take a look around your cramped living space turn to p.015. 
+To investigate it turn to p.010. To take a look around your living space turn to p.015. 
 
 &lt;!-- Potentially rephrase or find something else to do other than check the pc --&gt;
 
 &gt; [[p.010]]
-&gt; [[p.015]]</tw-passagedata><tw-passagedata pid="10" name="p.010" tags="" position="850,1225" size="100,100">Your computer hasn&#39;t lit up like this since your arrival. Something big must have happened.
+&gt; [[p.015]]</tw-passagedata><tw-passagedata pid="10" name="p.010" tags="" position="675,1100" size="100,100">Your computer hasn&#39;t lit up like this since your arrival. Something big must have happened.
 
 The cascade of notifications is so great, the system has automatically categorized them for your convenience.
 
@@ -378,7 +370,7 @@ To check out the rest of your living space, turn to p.015.
 &gt; [[p.012]]
 &gt; [[p.013]]
 &gt; [[p.014]]
-&gt; [[p.015]]</tw-passagedata><tw-passagedata pid="11" name="Character Sheet" tags="" position="850,475" size="100,100">[[p.001]] </tw-passagedata><tw-passagedata pid="12" name="p.011" tags="" position="725,1225" size="100,100">I haven&#39;t written this one yet! Sorry!</tw-passagedata><tw-passagedata pid="13" name="p.012" tags="" position="850,1350" size="100,100">I haven&#39;t written this one yet! Sorry!</tw-passagedata><tw-passagedata pid="14" name="p.013" tags="" position="975,1350" size="100,100">You open the Craft Status report.
+&gt; [[p.015]]</tw-passagedata><tw-passagedata pid="11" name="Character Sheet" tags="" position="850,475" size="100,100">[[p.001]] </tw-passagedata><tw-passagedata pid="12" name="p.011" tags="" position="1175,1150" size="100,100">I haven&#39;t written this one yet! Sorry!</tw-passagedata><tw-passagedata pid="13" name="p.012" tags="" position="525,1375" size="100,100">I haven&#39;t written this one yet! Sorry!</tw-passagedata><tw-passagedata pid="14" name="p.013" tags="" position="650,1275" size="100,100">You open the Craft Status report.
 
 &lt;Craft RH-MMCCXII-000213 Functionality Status: Stabilization Rockets Damaged&gt;
 
@@ -390,7 +382,7 @@ No useful data means no trip home.
 
 Turn to p.010.
 
-&gt; [[p.010]]</tw-passagedata><tw-passagedata pid="15" name="p.014" tags="" position="725,1350" size="100,100">You open the Fatalities Report.
+&gt; [[p.010]]</tw-passagedata><tw-passagedata pid="15" name="p.014" tags="" position="400,1275" size="100,100">You open the Fatalities Report.
 
 &lt;CRITICAL: Only 1 surviving crew of 1 total crew members.&gt;
 
@@ -402,7 +394,7 @@ It&#39;s a bug you&#39;d have fixed by software update if your only communicatio
 
 Turn to p.010.
 
-&gt; [[p.010]]</tw-passagedata><tw-passagedata pid="16" name="p.015" tags="" position="975,1225" size="100,100">Your living quarters are relatively clean, if cramped. Besides the window there is the door to your sleeping closet, and a large stack of cardboard boxes pressed against the wall of the craft.
+&gt; [[p.010]]</tw-passagedata><tw-passagedata pid="16" name="p.015" tags="" position="850,1175" size="100,100">Your living quarters are relatively clean, if cramped. Besides the window there is the door to your sleeping closet, and a large stack of cardboard boxes pressed against the wall of the craft.
 
 Only the ones containing food and entertainment have been opened so far, but now that your situation has changed it might be worth digging a little deeper.
 
@@ -412,4 +404,15 @@ To search through the stack of boxes turn to p.016. To check out your computer t
 
 &gt; [[p.016]]
 &gt; [[p.010]]
-&gt; [[p.007]]</tw-passagedata><tw-passagedata pid="17" name="p.016" tags="" position="1100,1350" size="100,100">I haven&#39;t written this one yet! Sorry!</tw-passagedata></tw-storydata></html>
+&gt; [[p.007]]</tw-passagedata><tw-passagedata pid="17" name="p.016" tags="" position="900,1350" size="100,100">I haven&#39;t written this one yet! Sorry!</tw-passagedata><tw-passagedata pid="18" name="p.017" tags="" position="1000,975" size="100,100">Your station is designed to maintain a geocentric orbit around your research target, but for some reason your view through the window is off-center.
+
+Looking closer, you notice a glowing orange shape some distance away from your craft.
+
+&lt;br&gt;
+
+If you have a telescope, turn to p.008 to inspect the shape.
+
+Otherwise, turn to p.009.
+
+&gt; [[p.008]]
+&gt; [[p.009]]</tw-passagedata></tw-storydata></html>
